@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="index.css">
 
@@ -13,60 +12,63 @@
         <!-- Header -->
         <div class= "header">
             <div class="right">
-                <ul>
-                    <li>Photo</li>
-                </ul>
+                <a href="#welcome">
+                    <img class="header-logo" src="images/jazz.jpg">
+                </a>
             </div>
             <div class="left">
                 <ul>
-                    <li>Team</li>
-                    <li>Portofolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
 
         <!-- Welcome Box Content -->
-        <div class="box1">
+        <div class="box1" id="welcome">
         <div class="intropage">
             <div class="textbox1">
-            <h1>Welcome</h1>
-            <p>dwdwjdwjdjdejdioejdioejioejissssssssss
-                ssssssssssssssssssssssssssssssssssssssssssssss
-                ssssssssssssssssssssssssssssssssssssssssssssssssssss
-                ssssssssssssssssss
+            <h1>Welcome !</h1>
+            <p><b>This page's purpose serves as my portofolio.
+                All projects, except <i>Fritaxi</i> were made as part
+                of my journey in <i>The Odin project</i> to learn HTML,
+                CSS and Javascript. 
+                Slowly but surely, I'm working on becoming a Front-End Developer
+                and maybebe one day a Full Stack Developer.</b>
+                
             </p>
             </div>
 
-        <img class="main_img" src="images/square.png">
+        <img class="main_img" src="images/jazz.jpg">
         </div>
         </div>
 
 
         <!-- Team Box Content -->
-        <div class="box2">
+        <div class="box2" id="team">
         <h1 class="section_title">Say hello to our team</h1>
         <div class="workers">
         <div class="worker">
-            <img src="images/profile.jpeg" class="profile_pic">
-            <h2>Sorina P.</h2>
-            <p class="worker-text">Front-end Developer</p>
-        </div>
-        <div class="worker">
-            <img src="images/profile.jpeg" class="profile_pic">
-            <h2>Mr. Jazz</h2>
+            <img src="images/jazz_worker2.jpg" class="profile_pic">
+            <h2>Jazz</h2>
             <p class="worker-text">Chief Executive Officer</p>
         </div>
         <div class="worker">
-            <img src="images/profile.jpeg" class="profile_pic">
-            <h2>Sir Ducky</h2>
-            <p class="worker-text">'Knows It All'</p>
+            <img src="images/jazz_worker1.jpg" class="profile_pic">
+            <h2>Worker 1</h2>
+            <p class="worker-text">Front End Developer</p>
         </div>
         <div class="worker">
-            <img src="images/profile.jpeg" class="profile_pic">
-            <h2>Octavia</h2>
-            <p class="worker-text">Emotional Supporter</p>
+            <img src="images/jazz_worker4.jpg" class="profile_pic">
+            <h2>Worker 2</h2>
+            <p class="worker-text">Back End Developer</p>
+        </div>
+        <div class="worker">
+            <img src="images/jazz_worker3.jpg" class="profile_pic">
+            <h2>Worker 3</h2>
+            <p class="worker-text">Emotional Support</p>
         </div>
         </div>
         </div>
@@ -74,33 +76,47 @@
 
 
         <!-- Portofolio Box Content -->
-        <div class="box3">
+        <div class="box3" id="portofolio">
             <h1 class="section_title">Take a look at our projects</h1>
         <div class="workers">
         <div class="worker">
-            <img src="images/profile.jpeg" class="profile_pic">
-            <h2>Recipes Page</h2>
-            <p class="worker-text">First HTML Project from Odin</p>
+            <a href="https://sorinajazz.github.io/odin-rockpaperscissors/"><img src="images/rps.PNG" class="profile_pic"></a>
+            <h2>Rock Paper Scissors</h2>
+            <p class="worker-text">HTML + CSS + Javascript</p>
         </div>
+
+        <div class="worker">
+            <a href="https://sorinajazz.github.io/odin-recipes/"><img src="images/recipes.PNG" class="profile_pic"></a>
+            <h2>Recipes Page</h2>
+            <p class="worker-text">First HTML Project</p>
+        </div>
+
+        <div class="worker">
+            <a href="https://github.com/sorinajazz/mobileAppFritaxi"><img src="images/frexi.PNG" class="profile_pic"></a>
+            <h2>Frexi</h2>
+            
+            <p class="worker-text">Android Studio + Firebase</p>
+        </div>
+        
         </div>
 
         </div>
 
         <!-- About Box Content -->
-        <div class="box4">
-            <div class="quote">AaJSJKSCKHJjckfnskwdnwjdwddhwjdw
-                shwbdjjhdhsdhdbhsdbshshjbhsbhsgdbsh
-                ahxshshdshdsbdhsgdsdushdusdushdsudhsidh
-                sdsdhsdgshdgsydgsyudsydgysdgsygdsygsydgysdg
-                sdshdhsdgsdygsdygsydgysdgysgdysdgysdgysgdysgd
+        <div class="box4" id="about">
+            <div class="quote">
+                Success in creating AI would be the biggest
+                 event in human history. 
+                Unfortunately, it might also be the last,
+                 unless we learn how to avoid the risks.
             </div>
 
-            <p class="sign">--Sorina P.</p>
+            <p class="sign">--Stephen Hawking</p>
         </div>
 
 
         <!-- Contact Details Box Content -->
-        <div class="box5">
+        <div class="box5" id="contact">
             <h1 class="section_title">Contact List</h1>
             <div class="contact_link">
                 <img class="contact_icon" src="images/logo3.png">
@@ -110,14 +126,14 @@
             </div>
             <div class="contact_link">
                 <img class="contact_icon" src="images/logo1.png">
-                <p>Github:
-                    <a href="https://github.com/sorinajazz" target="_blank">sorinajazz</a>
+                <p>Email:
+                    sory.denisa@yahoo.com
                 </p>
             </div>
             <div class="contact_link">
                 <img class="contact_icon" src="images/logo2.png">
-                <p>Github:
-                    <a href="https://github.com/sorinajazz" target="_blank">sorinajazz</a>
+                <p>LinkedIn:
+                    <a href="https://www.linkedin.com/in/sorina-popescu/" target="_blank">Sorina Popescu</a>
                 </p>
             </div>
         </div>
@@ -126,8 +142,7 @@
         <!-- Footer -->
         <footer>
             <p>
-                Copyright © 
-                <a target="_blank" href="https://www.OtherCatt.com/">OtherCatt Inc.</a>
+                Copyright © Sorina P.
                 <br>
                 In conjunction with 
                 <a target="_blank" href="https://www.theodinproject.com/">The Odin Project</a>
