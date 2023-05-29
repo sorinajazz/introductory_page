@@ -1,3 +1,3 @@
 Odin Landing Page
 
-This page is an introduction to all my projejects.
+This page represents a self introduction and showcases all the projects that I made.
